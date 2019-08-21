@@ -58,10 +58,7 @@ EV DFX Features=00                      // *00 (Disable), 01 (Enable)
 
 [Advanced|Chipset Configuration|North Bridge|IIO Configuration|IIO1 Configuration]
 M.2 PCI-E 3.0 X4=03                     // 01 (Gen 1 (2.5 GT/s)), 02 (Gen 2 (5 GT/s)), *03 (Gen 3 (8 GT/s))        
-IIO1 PORT 2A Link Speed=03              // 01 (Gen 1 (2.5 GT/s)), 02 (Gen 2 (5 GT/s)), *03 (Gen 3 (8 GT/s))        
-IIO1 PORT 2C Link Speed=03              // 01 (Gen 1 (2.5 GT/s)), 02 (Gen 2 (5 GT/s)), *03 (Gen 3 (8 GT/s))        
 SLOT7 PCI-E 3.0 X16=03                  // 01 (Gen 1 (2.5 GT/s)), 02 (Gen 2 (5 GT/s)), *03 (Gen 3 (8 GT/s))        
-IIO1 PORT 3C Link Speed=03              // 01 (Gen 1 (2.5 GT/s)), 02 (Gen 2 (5 GT/s)), *03 (Gen 3 (8 GT/s))        
 
 [Advanced|Chipset Configuration|North Bridge|IIO Configuration|IOAT Configuration]
 Enable IOAT=01                          // 00 (Disable), *01 (Enable)        
@@ -106,7 +103,7 @@ Support Aggressive Link Power Mgmt=00   // *00 (Disabled), 01 (Enabled)        C
 SATA RAID Option ROM/UEFI Driver=02     // 00 (Disabled), 01 (EFI), *02 (Legacy)        Configure SATA as = "RAID"
 Port 0 Hot Plug=01                      // 00 (Disabled), *01 (Enabled)        Configure SATA as = "AHCI" or Configure SATA as = "RAID"
 Port 0 Spin Up Device=00                // *00 (Disabled), 01 (Enabled)        Configure SATA as = "AHCI" or Configure SATA as = "RAID"
-Port 0 SATA Device Type=01              // *00 (Hard Disk Drive), 01 (Solid State Drive)        
+Port 0 SATA Device Type=00              // *00 (Hard Disk Drive), 01 (Solid State Drive)        
 Port 1 Hot Plug=01                      // 00 (Disabled), *01 (Enabled)        Configure SATA as = "AHCI" or Configure SATA as = "RAID"
 Port 1 Spin Up Device=00                // *00 (Disabled), 01 (Enabled)        Configure SATA as = "AHCI" or Configure SATA as = "RAID"
 Port 1 SATA Device Type=00              // *00 (Hard Disk Drive), 01 (Solid State Drive)        
@@ -121,7 +118,7 @@ Port 4 Spin Up Device=00                // *00 (Disabled), 01 (Enabled)        C
 Port 4 SATA Device Type=00              // *00 (Hard Disk Drive), 01 (Solid State Drive)        
 Port 5 Hot Plug=01                      // 00 (Disabled), *01 (Enabled)        Configure SATA as = "AHCI" or Configure SATA as = "RAID"
 Port 5 Spin Up Device=00                // *00 (Disabled), 01 (Enabled)        Configure SATA as = "AHCI" or Configure SATA as = "RAID"
-Port 5 SATA Device Type=01              // *00 (Hard Disk Drive), 01 (Solid State Drive)        
+Port 5 SATA Device Type=00              // *00 (Hard Disk Drive), 01 (Solid State Drive)        
 
 [Advanced|PCIe/PCI/PnP Configuration]
 PCI PERR/SERR Support=00                // *00 (Disabled), 01 (Enabled)        
@@ -133,6 +130,7 @@ Relaxed Ordering=00                     // *00 (Disabled), 01 (Enabled)
 Extended Tag=00                         // *00 (Disabled), 01 (Enabled)        
 ARI Forwarding=00                       // *00 (Disabled), 01 (Enabled)        
 ASPM Support=00                         // *00 (Disabled), 37 (Auto)        
+Consistent Device Name Support=00       // *00 (Disabled), 01 (Enabled)        
 M.2 PCI-E 3.0 X4 OPROM=02               // 00 (Disabled), *01 (Legacy), 02 (EFI)        
 SLOT7 PCI-E 3.0 X16 Bifurcation=04      // 00 (x4x4x4x4), 01 (x4x4x8), 02 (x8x4x4), 03 (x8x8), *04 (x16)        
 SLOT7 PCI-E 3.0 X16 OPROM=02            // 00 (Disabled), *01 (Legacy), 02 (EFI)        
