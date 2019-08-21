@@ -103,7 +103,7 @@ Support Aggressive Link Power Mgmt=00   // *00 (Disabled), 01 (Enabled)        C
 SATA RAID Option ROM/UEFI Driver=02     // 00 (Disabled), 01 (EFI), *02 (Legacy)        Configure SATA as = "RAID"
 Port 0 Hot Plug=01                      // 00 (Disabled), *01 (Enabled)        Configure SATA as = "AHCI" or Configure SATA as = "RAID"
 Port 0 Spin Up Device=00                // *00 (Disabled), 01 (Enabled)        Configure SATA as = "AHCI" or Configure SATA as = "RAID"
-Port 0 SATA Device Type=00              // *00 (Hard Disk Drive), 01 (Solid State Drive)        
+Port 0 SATA Device Type=01              // *00 (Hard Disk Drive), 01 (Solid State Drive)        
 Port 1 Hot Plug=01                      // 00 (Disabled), *01 (Enabled)        Configure SATA as = "AHCI" or Configure SATA as = "RAID"
 Port 1 Spin Up Device=00                // *00 (Disabled), 01 (Enabled)        Configure SATA as = "AHCI" or Configure SATA as = "RAID"
 Port 1 SATA Device Type=00              // *00 (Hard Disk Drive), 01 (Solid State Drive)        
@@ -118,7 +118,7 @@ Port 4 Spin Up Device=00                // *00 (Disabled), 01 (Enabled)        C
 Port 4 SATA Device Type=00              // *00 (Hard Disk Drive), 01 (Solid State Drive)        
 Port 5 Hot Plug=01                      // 00 (Disabled), *01 (Enabled)        Configure SATA as = "AHCI" or Configure SATA as = "RAID"
 Port 5 Spin Up Device=00                // *00 (Disabled), 01 (Enabled)        Configure SATA as = "AHCI" or Configure SATA as = "RAID"
-Port 5 SATA Device Type=00              // *00 (Hard Disk Drive), 01 (Solid State Drive)        
+Port 5 SATA Device Type=01              // *00 (Hard Disk Drive), 01 (Solid State Drive)        
 
 [Advanced|PCIe/PCI/PnP Configuration]
 PCI PERR/SERR Support=00                // *00 (Disabled), 01 (Enabled)        
